@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Location Hub</string>
+    <string name="welcome_label">Benvenuto in Location Hub!</string>
+    <string name="description_label">Quest\'app ti permette di visualizzare la posizione degli altri utenti e di conoscere la distanza che ti separa da essi</string>
+    <string name="username_input">Inserisci un nome utente</string>
+    <string name="continue_btn_label">Continua</string>
+    <string name="show_location">Voglio mostrare la mia posizione</string>
+    <string name="home_btn">Home</string>
+    <string name="map_btn">Mappa</string>
+    <string name="settings_btn">Preferenze</string>
+    <string name="user_connected">Utenti connessi</string>
+    <string name="viewholder_distance">Distante da te:</string>
+    <string name="viewholder_no_location">Non fornisce la sua posizione </string>
+    <string name="settings_label">Preferenze</string>
+    <string name="limit_distance_label">Mostra solo utenti fino a</string>
+    <string name="no_limit_label">illimitato</string>
+    <string name="app_info">\u0020\u0020\u0020Informazioni sull\'applicazione</string>
+    <string name="dialog_info_title">Informazioni</string>
+    <string name="dialog_info_body">App realizzata per l\'esame di Laboratorio di Sistemi Operativi A.A. 2020/2021
+        dagli studenti Pasquale Barbaro e Giovanni Cerciello.\nDocenti del corso: Marco Faella, Francesco Cutugno, Marco Grazioso.
+        \nCompatibile con Android 7.0 o superiore.</string>
+    <string name="press_back_twice_message">Premi nuovamente indietro per uscire</string>
+    <string name="my_marker_label">La mia posizione</string>
+    <string name="loading_dialog">Collegamento al server…</string>
+    <string name="username_error_label">Il nome utente deve essere compreso tra 4 e 10 caratteri e non contenere simboli speciali</string>
+    <string name="username_error_title">Errore!</string>
+    <string name="username_error_already_used_label">Questo nome utente è già utilizzato</string>
+    <string name="network_error">Controlla la tua connessione.</string>
+    <string name="not_checked_location_label">Quest\'app non funzionerà senza i permessi di geolocalizzazione, riavvia l\'app e concedi i permessi</string>
+    <string name="checked_location_label">Quest\'app non funzionerà senza i permessi di geolocalizzazione, vai nelle impostazioni del tuo smartphone per concederli</string>
+    <string name="network_error_title">Nessuna connessione!</string>
+    <string name="location_error_title">Permessi di geolocalizzazione necessari!</string>
+    <string name="server_error_title">Connessione al server interrotta.</string>
+    <string name="server_error_button">Torna al login</string>
+    <string name="no_user_connected_label">Nessun utente connesso…</string>
+    <string name="update_button_label">Aggiorna</string>
+    <string name="no_user_connected_within_distance_label">Nessun utente connesso entro</string>
+    <string name="no_address_retrieved">Indirizzo sconosciuto</string>
+    <string name="clicked_on_user_not_willing_to_share">Non è possibile mostrare gli utenti senza posizione sulla mappa</string>
+    <string name="error_ip_or_port_input">Inserire un indirizzo ip e un numero di porta validi</string>
+    <string name="ip_text">Indirizzo IP</string>
+    <string name="port_text">Porta</string>
+    <string name="error_connection_toast">Server non raggiungibile. Controlla la connessione e riprova</string>
+    <string name="login_dialog_error">Compilare i campi correttamente e riprovare.</string>
+</resources>

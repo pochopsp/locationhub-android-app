@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Location Hub</string>
+    <string name="welcome_label">Welcome to Location Hub!</string>
+    <string name="description_label">This app allows you to see in real time the location of other users and to know the distance that separates you from them</string>
+    <string name="username_input">Enter a username</string>
+    <string name="continue_btn_label">Continue</string>
+    <string name="show_location">I want to show my location</string>
+    <string name="home_btn">Home</string>
+    <string name="map_btn">Map</string>
+    <string name="settings_btn">Settings</string>
+    <string name="user_connected">Connected users</string>
+    <string name="viewholder_distance">Far from you: </string>
+    <string name="viewholder_no_location">Doesn\'t share the location</string>
+    <string name="settings_label">Settings</string>
+    <string name="limit_distance_label">Show users only within</string>
+    <string name="no_limit_label">unlimited</string>
+    <string name="app_info">\u0020\u0020\u0020About the application</string>
+    <string name="dialog_info_title">About</string>
+    <string name="dialog_info_body">App made for the exam Laboratorio di Sistemi Operativi A.A. 2020/2021
+        by students Pasquale Barbaro e Giovanni Cerciello.\nProfessors: Marco Faella, Francesco Cutugno, Marco Grazioso.
+        \nCompatible with Android 7.0 or higher.</string>
+    <string name="press_back_twice_message">Press back again to exit</string>
+    <string name="my_marker_label">My location</string>
+    <string name="loading_dialog">Connecting to server…</string>
+    <string name="username_error_label">Username must be between 4 and 10 characters and must not contain special symbols</string>
+    <string name="username_error_title">Error!</string>
+    <string name="username_error_already_used_label">Username is already in use</string>
+    <string name="network_error">Check your device\'s network.</string>
+    <string name="not_checked_location_label">This app won\'t work without location permission, please close and reopen the app to grant them</string>
+    <string name="checked_location_label">This app won\'t work without location permission,please go to your device\'s settings to grant them</string>
+    <string name="network_error_title">No connection detected!</string>
+    <string name="location_error_title">Location permissions needed!</string>
+    <string name="server_error_title">Connection to the server interrupted.</string>
+    <string name="server_error_button">Go to login</string>
+    <string name="no_user_connected_label">No user connected…</string>
+    <string name="update_button_label">Update</string>
+    <string name="no_user_connected_within_distance_label">No user connected within</string>
+    <string name="no_address_retrieved">Unknown address</string>
+    <string name="clicked_on_user_not_willing_to_share">Cannot show users without location on map</string>
+    <string name="error_ip_or_port_input">You must insert a valid ip address and port number</string>
+    <string name="ip_text">IP address</string>
+    <string name="port_text">Port</string>
+    <string name="error_connection_toast">Server unreachable. Check your connection and try again</string>
+    <string name="login_dialog_error">Fill in the fields correctly and try again</string>
+</resources>

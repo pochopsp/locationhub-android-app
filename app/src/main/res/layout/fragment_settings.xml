@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraint_layout_settings"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.settings.SettingsFragment">
+
+    <TextView
+        android:id="@+id/settings_label"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:fontFamily="@font/ibm_plex_sans_bold"
+        android:text="@string/settings_label"
+        android:textColor="@color/text_color"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <com.google.android.material.slider.Slider
+
+        android:id="@+id/slider_limit_distance"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="5dp"
+        android:valueFrom="0.0"
+        android:valueTo="1500.0"
+        app:labelBehavior="gone"
+        app:layout_constraintEnd_toEndOf="@+id/distance_number_textview"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/distance_number_textview"
+        app:trackHeight="10dp" />
+
+    <TextView
+        android:id="@+id/distance_number_textview"
+        android:layout_width="97dp"
+        android:layout_height="27dp"
+        android:fontFamily="@font/ibm_plex_sans_regular"
+        android:text="@string/no_limit_label"
+        android:textAlignment="center"
+        android:textColor="@color/text_color"
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/limit_distance_textview"
+        app:layout_constraintEnd_toEndOf="@+id/share_position_agreement_switch_settings" />
+
+    <TextView
+        android:id="@+id/limit_distance_textview"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/ibm_plex_sans_regular"
+        android:text="@string/limit_distance_label"
+        android:textColor="@color/text_color"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/share_position_agreement_switch_settings"
+        app:layout_constraintTop_toBottomOf="@+id/share_position_agreement_switch_settings" />
+
+    <Button
+        android:id="@+id/info_app_textview"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="0dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="6dp"
+        android:backgroundTint="@color/background_color"
+        android:drawableLeft="@drawable/ic_information"
+        android:fontFamily="@font/ibm_plex_sans_regular"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:shadowColor="@color/background_color"
+        android:text="@string/app_info"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textAppearance="@style/Widget.AppCompat.TextView"
+        android:textColor="@color/text_color"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/distance_number_textview"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="@+id/slider_limit_distance"
+        app:layout_constraintTop_toBottomOf="@+id/slider_limit_distance"
+        app:rippleColor="#D4E2FC"
+        tools:ignore="RtlHardcoded" />
+
+    <include
+        android:id="@+id/share_position_agreement_switch_settings"
+        layout="@layout/switch_share_position"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="@+id/settings_label"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/settings_label"
+        app:layout_constraintTop_toBottomOf="@+id/settings_label" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
